@@ -11,8 +11,16 @@ footer ul li {
   margin-top: 10px;
 }
 
+body .navbar {
+  padding: 0px;
+}
+
+.bg-dark-trans {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .carousel-item {
-  max-height: 675px;
+  max-height: 755px;
 }
 
 .wrapper {

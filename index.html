@@ -8,10 +8,11 @@
 
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./bootstrap-5.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
 </head>
 <body>
-  <nav class="navbar navbar-dark navbar-expand-md bg-dark justify-content-center">
+  <nav class="navbar navbar-dark fixed-top navbar-expand-md bg-dark-trans justify-content-center">
     <div class="container">
       <a href="/index.html" class="navbar-brand d-flex w-50 me-auto"><img src="./images/logo.svg" alt="logo" style="width: 100px;"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
@@ -72,7 +73,7 @@
     </button>
   </div>
 
-  <div class="container my-5">
+  <div id="tours" class="container my-5">
 
     <div class="container">
 
@@ -92,7 +93,7 @@
           <div class="info">
             <h1 class="card-tours-h1">Trekking tours</h1>
             <p class="card-tours-p">Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
-            <a href="./trekking_tours/trekking_tours.html" class="card-tours-button">View more</a>
+            <a href="#" class="card-tours-button">View more</a>
           </div>
         </div>
         <div class="card-tours">
@@ -100,7 +101,7 @@
           <div class="info">
             <h1 class="card-tours-h1">Wheel tours</h1>
             <p class="card-tours-p">Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
-            <a href="./ski_tours/ski_tours.html" class="card-tours-button">View more</a>
+            <a href="#" class="card-tours-button">View more</a>
           </div>
         </div>
       </div>
@@ -109,81 +110,100 @@
 
   </div>
 
+    <footer class="text-center bg-dark text-lg-start text-white">
 
-  <footer class="bg-dark text-white text-center text-lg-start">
-    
-    <div class="container p-4">
-      
-      <div class="row justify-content-evenly">
+      <div class="container p-4 pb-0">
+
+        <section class="">
+          <div class="row">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                KYRGYZ TOURS
+              </h6>
+              <p>
+                Kyrgyz Tours offers unique and authentic travel adventures through Kyrgyzstan's pristine nature and nomadic traditional culture at the foot of the Tian Shan (Celestial) Mountains, where it's nothing like the West, but has everything for the true explorer.
+              </p>
+            </div>
+
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Links</h6>
+              <p>
+                <a class="text-white">Home</a>
+              </p>
+              <p>
+                <a class="text-white">About us</a>
+              </p>
+              <p>
+                <a class="text-white">Contacts</a>
+              </p>
+              <p>
+                <a href="#tours" class="text-white">Tours</a>
+              </p>
+            </div>
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Tours links
+              </h6>
+              <p>
+                <a class="text-white">Ski tours</a>
+              </p>
+              <p>
+                <a class="text-white">Trekking tours</a>
+              </p>
+              <p>
+                <a class="text-white">Wheel tours</a>
+              </p>
+            </div>
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contacts</h6>
+              <p><i class="bi bi-telephone"></i> +996 552 552 529</p>
+              <p><i class="bi bi-envelope"></i> contact@kyrgyz-tours.info</p>
+            </div>
+            
+          </div>
+        </section>
+  
+        <hr class="my-3">
+  
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+              <div class="p-3">
+                © 2021 All rights reserved
+              </div>
+            </div>
+  
+            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+              <a href="https://www.facebook.com/kyrgyz.tours/" class="btn btn-outline-primary btn-floating m-1 text-white" role="button">
+                <i class="bi bi-facebook"></i>
+              </a>
+              
+              <a href="https://www.instagram.com/kyrgyztours/" class="btn btn-outline-danger btn-floating m-1 text-white" role="button">
+                <i class="bi bi-instagram"></i>
+              </a>
+
+              <a href="mailto:contact@kyrgyz-tours.info" class="btn btn-outline-info btn-floating m-1 text-white" role="button">
+                <i class="bi bi-envelope-open"></i>
+              </a>
+            </div>
+            
+          </div>
+        </section>
         
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0 w-25">
-          <h5 class="text-uppercase">KYRGYZ TOURS</h5>
-  
-          <p>
-            Kyrgyz Tours offers unique and authentic travel adventures through Kyrgyzstan's pristine nature and nomadic traditional culture at the foot of the Tian Shan (Celestial) Mountains, where it's nothing like the West, but has everything for the true explorer.
-          </p>
-
-        </div>
-        
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-  
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Home</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">About us</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Contacts</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Tours</h5>
-  
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Ski tours</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Trekking tours</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Wheel tours</a>
-            </li>
-          </ul>
-        </div>
-        
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-0">Contacts</h5>
-  
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!" class="text-white">+996 552 55 25 29</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">kyrgyz.tours</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">contact@kyrgyz-tours.info </a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">@kyrgyztours</a>
-            </li>
-          </ul>
-        </div>
-
       </div>
-    </div>
+      
+    </footer>
     
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2021 Copyright: All rights reserved
-    </div>
-    
-  </footer>
+  
   
 </body>
 
