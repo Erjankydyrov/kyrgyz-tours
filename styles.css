@@ -15,20 +15,11 @@ body .navbar {
   padding: 0px;
 }
 
-.carousel {
-  margin-top: 60px;
-}
-.carousel-item {
-  max-height: 695px;
-}
-
 .wrapper {
   display: flex;
   width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 .card-tours {
   width: 280px;
