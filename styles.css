@@ -7,6 +7,9 @@ footer a {
 footer a:hover {
   text-decoration: underline
 }
+footer ul li {
+  margin-top: 10px;
+}
 
 .carousel-item {
   max-height: 680px;
