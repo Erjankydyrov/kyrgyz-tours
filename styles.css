@@ -15,12 +15,11 @@ body .navbar {
   padding: 0px;
 }
 
-.bg-dark-trans {
-  background-color: rgba(0, 0, 0, 0.5);
+.carousel {
+  margin-top: 60px;
 }
-
 .carousel-item {
-  max-height: 755px;
+  max-height: 695px;
 }
 
 .wrapper {
@@ -28,6 +27,8 @@ body .navbar {
   width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .card-tours {
   width: 280px;
