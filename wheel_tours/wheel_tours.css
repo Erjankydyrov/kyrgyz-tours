@@ -1,3 +1,7 @@
+body .card-img-overlay {
+  top: auto;
+}
+
 body .card {
   border: none;
 }
