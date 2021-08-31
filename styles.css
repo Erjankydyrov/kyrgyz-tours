@@ -11,6 +11,10 @@ footer ul li {
   margin-top: 10px;
 }
 
+.carousel-item {
+  max-height: 695px;
+}
+
 body .navbar {
   padding: 0px;
 }
